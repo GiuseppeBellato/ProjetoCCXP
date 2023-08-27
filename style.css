@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+header{
+background-color: #FFD900;
+height: 120px;
+width: 100%;
+display: flex;
+align-items: center;
+padding-left: 60px;
+}
+
+#section1 {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 50%;
+    text-align: center;
+}
+
+#text1 {
+    background-color: #514988;
+    text-align: center;
+}
+
+#titulo{
+    font-size: 60px;
+    font-weight: 700;
+    color: #f3c61f;
+    margin: 30px 0px;
+}
+
+#data{ 
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+#conteudo{ 
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin:0px 40px 90px 40px;
+}
+
+#countdown{
+    font-size: 40px;
+    font-weight: 700;
+    color: #514988;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.itensJuntos{
+    display: flex;
+}
+
+#textoCountdown{
+    font-size: 30px;
+    font-weight: 700;
+    color: #E33881;
+    text-align: center;
+    margin: 15px 0px;
+}
