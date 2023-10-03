@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/logo.svg" style="color: white;">
     <title>CCXP22</title>
 
 </head>
@@ -53,22 +54,23 @@
         </div>
     </section>
     <section id="section2">
-        <div id="ingressos" >
+        <div id="ingressos-div" >
             <div id="text-ingressos">
                 <p>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</p>    
             </div>
             <div id="img-ingressos">
-                <img src="/img/quinta.svg" alt="error">
-                <img src="/img/sexta.svg" alt="error">
-                <img src="/img/sabado.svg" alt="error">
-                <img src="/img/domingo.svg" alt="error">
+                <img  id="quinta" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" src="/img/quinta.svg" alt="error" onclick="selectCard('#quinta')">
+                <img id="sexta" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" src="/img/sexta.svg" alt="error" onclick="selectCard('#sexta')">
+                <img id="sabado" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" src="/img/sabado.svg" alt="error" onclick="selectCard('#sabado')">
+                <img id="domingo" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" class="card-ingresso" src="/img/domingo.svg" alt="error" onclick="selectCard('#domingo')">
             </div>
         </div>
         <div id="botao-compra">
-            <a href="https://calendar.google.com/calendar/u/0/r?pli=1" target="_blank"><button>GARANTA O SEU!</button></a>
+            <button onclick="showSelectedCards()">GARANTA O SEU!</button>
         </div>
     </section>
 
     <script src="cronometro.js"> </script>
+    <script src="main.js"></script>
 </body>
 </html>

@@ -76,7 +76,7 @@ padding-left: 60px;
 }
 
 
-#ingressos {
+#ingressos-div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,3 +103,10 @@ padding-left: 60px;
     margin-top: 40px;
 }
 
+.cardHighlight {
+    box-shadow: 10px 10px 7px gray;
+}
+
+.cardSelected{
+    border: 5px solid green;
+}
