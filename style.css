@@ -110,3 +110,27 @@ padding-left: 60px;
 .cardSelected{
     border: 5px solid green;
 }
+
+input {
+    background: #514988;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 3px solid white;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
+
+input::placeholder {
+    color: white;
+    padding-left: 10px;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    background-color: #f3c61f;
+}
+
+
